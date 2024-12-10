@@ -1,5 +1,4 @@
 const yup = require('yup')
-
 const validate = async (req,res,next)=>{
 try {
     const schema = yup.object().shape({
